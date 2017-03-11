@@ -156,3 +156,7 @@ C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplic
 C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\obj\Debug\WebApplication1.Migrations.InitialCreate.resources
+C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.Cache
+C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\bin\MySql.Data.dll
+C:\Users\Kylw\Documents\Visual Studio 2015\Projects\StudentHackFavourr\WebApplication1\bin\MySql.Data.xml
