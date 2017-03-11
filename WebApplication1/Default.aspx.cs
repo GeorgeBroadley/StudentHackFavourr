@@ -14,6 +14,13 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+        }
+
+        private void onClick(Object sender, EventArgs e)
+        {
+>>>>>>> fbd1dbc302007c9046a348118242ef451a5b16bf
         }
         
     }
