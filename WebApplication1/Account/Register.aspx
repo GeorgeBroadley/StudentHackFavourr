@@ -18,6 +18,33 @@
                     CssClass="text-danger" ErrorMessage="The email field is required." />
             </div>
         </div>
+        
+        <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="Address" CssClass="col-md-2 control-label">Address</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="Address" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Address"
+                    CssClass="text-danger" ErrorMessage="The address field is required." />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="Postcode" CssClass="col-md-2 control-label">Postcode</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="Postcode" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Postcode"
+                    CssClass="text-danger" ErrorMessage="A post code is required." />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="Name" CssClass="col-md-2 control-label">Name</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="Name" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Name"
+                    CssClass="text-danger" ErrorMessage="Your full name is required." />
+            </div>
+        </div>
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="Password" CssClass="col-md-2 control-label">Password</asp:Label>
             <div class="col-md-10">
@@ -38,7 +65,7 @@
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <asp:Button runat="server" OnClick="CreateUser_Click" Text="Register" CssClass="btn btn-default" />
+                <asp:Button runat="server" OnClick="CreateUser_Click" Text="Register" CssClass="btn btn-default" Height="40px" Width="127px" />
             </div>
         </div>
     </div>
