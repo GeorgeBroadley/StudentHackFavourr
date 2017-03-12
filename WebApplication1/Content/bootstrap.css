@@ -349,7 +349,7 @@ textarea {
     select[multiple],
     textarea {
         background-image: none;
-        height: 176px;
+        /*height: 176px;*/
         }
 
 a {

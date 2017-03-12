@@ -6,7 +6,7 @@
     <h2><%: Title %>.</h2>
 
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <section id="loginForm">
                 <div class="form-horizontal">
                     <h4>Use a local account to log in.</h4>
@@ -16,6 +16,7 @@
                             <asp:Literal runat="server" ID="FailureText" />
                         </p>
                     </asp:PlaceHolder>
+                    <asp:Label ID="LogWarn" runat="server" Text="Your email or password combination was incorrect" Visible="False" ForeColor="Red" Font-Underline="True"></asp:Label>
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Email</asp:Label>
                         <div class="col-md-10">
@@ -56,10 +57,10 @@
             </section>
         </div>
 
-        <div class="col-md-4">
+        <!--<div class="col-md-4">
             <section id="socialLoginForm">
                 <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
             </section>
-        </div>
+        </div>--!>
     </div>
 </asp:Content>

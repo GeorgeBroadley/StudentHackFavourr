@@ -4,14 +4,15 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebApplication1.Models;
 
-namespace WebApplication1.Account
+namespace WebApplication1
 {
     public partial class Welcome : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            WelcomeText.Text = DatabaseSingleton.getInstance().getUserWelcome();
         }
     }
 }

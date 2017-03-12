@@ -25,7 +25,24 @@ namespace WebApplication1.Account
 
         protected void LogIn(object sender, EventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine(DatabaseSingleton.getInstance().Login(Email.Text, Password.Text));
+            switch(DatabaseSingleton.getInstance().Login(Email.Text, Password.Text))
+            {
+                case "credfail":
+                    DatabaseSingleton.getInstance().Logout();
+                    LogWarn.Text = "Your email or password combination was incorrect.";
+                    LogWarn.Visible = true;
+                    break;
+                case "confail":
+                    DatabaseSingleton.getInstance().Logout();
+                    LogWarn.Text = "Sorry we encountered a problem with the server.";
+                    LogWarn.Visible = true;
+                    break;
+                default:
+                    LogWarn.Visible = false;
+                    Response.Redirect("../Welcome.aspx");
+                    break;
+
+            }
         }
     }
 }

@@ -13,48 +13,84 @@ namespace WebApplication1 {
     public partial class _Default {
         
         /// <summary>
-        /// ImageButton1 control.
+        /// County control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.DropDownList County;
         
         /// <summary>
-        /// ImageButton2 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// ImageButton3 control.
+        /// accounting control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
+        protected global::System.Web.UI.WebControls.ImageButton accounting;
         
         /// <summary>
-        /// ImageButton4 control.
+        /// tech control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
+        protected global::System.Web.UI.WebControls.ImageButton tech;
         
         /// <summary>
-        /// ImageButton5 control.
+        /// garden control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton5;
+        protected global::System.Web.UI.WebControls.ImageButton garden;
+        
+        /// <summary>
+        /// decor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton decor;
+        
+        /// <summary>
+        /// mech control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton mech;
+        
+        /// <summary>
+        /// LogWarn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel LogWarn;
+        
+        /// <summary>
+        /// favoursTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel favoursTable;
     }
 }
